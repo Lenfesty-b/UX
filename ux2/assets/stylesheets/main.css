@@ -1,0 +1,195 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: georgia;
+  color:white;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body, html {
+  height: 100%;
+}
+header{
+	width:1000px;
+	height:100px;
+}
+body {
+  line-height: 1;
+background-color:#8B0000;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.parallax { 
+
+  background-image: url("cinema.jpg");
+
+  height: 500px;
+border:3px solid black;  
+	
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.nav-bar{
+	text-align: center;
+	width:900px;
+	margin:auto;
+	border-radius:16px;
+}
+.sec-col{
+ float: left;
+ margin: 10px 1.5%;
+ width: 30%;
+ border:3px solid #8B0000;
+ border-radius:16px;
+ padding:10px;
+ height:600px;
+ background-color:#8B0000;
+display:block;
+}
+body {
+  height:970px;
+
+}
+.container {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 1000px;
+text-align:center;
+}
+
+.hcontainer{
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 900px;
+  text-align:center;
+  border-radius:16px;
+  background-color:#8B0000;
+}  
+
+}
+.nav-footer-bar{
+	background-color:#8B0000;
+	text-align: center;
+	width:650px;
+	margin:auto;
+	border-radius:5px;
+}
+footer {
+  clear: both;
+}
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+.hcontainer h1{
+	font-size:50px;
+}
+.hcontainer h1,h3,a{
+	color:white;
+}
+a,a:visited{
+	text-decoration:none;
+	color:black;
+}
+a:hover{
+	color:grey;
+}
+.nav-text{
+	padding:20px;
+	font-size:20px;
+	margin:auto;	
+}
+.nav-footer{
+	padding:30px;
+	font-size:20px
+}
+h1, h3, h4, h5, p {
+  margin-bottom: 22px;
+}
+.hero {
+	color:white;
+}
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+
+/* .btn {
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0;
+}
+
+.btn-alt {
+  border: 1px solid #dfe2e5;
+  padding: 10px 30px;
+} */
+
+/*
+  ========================================
+  Home
+  ========================================
+*/
+
+/* .hero {
+  padding: 22px 80px 66px 80px;
+}
+ */
+
+
