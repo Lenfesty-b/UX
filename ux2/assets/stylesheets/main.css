@@ -30,14 +30,37 @@ footer, header, hgroup, menu, nav, section {
 }
 body, html {
   height: 100%;
+  margin:0px;
 }
 header{
 	width:1000px;
 	height:100px;
 }
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+footer,
+.push {
+  height: 50px;
+}
 body {
   line-height: 1;
-background-color:#8B0000;
+  background-color:#8B0000;
+}
+footer{
+	margin:auto;
+    min-width:100%;
+    max-width:100%;
+	height:10%;
+	background-color:#C0392B;
+
+	border-top-width:3px;
+	border-style:solid;
+	border-color:black;
 }
 ol, ul {
   list-style: none;
@@ -67,6 +90,10 @@ border:3px solid black;
   background-repeat: no-repeat;
   background-size: cover;
 }
+.space{
+	padding:10px;
+}
+
 /*
   ========================================
   Grid
@@ -84,19 +111,16 @@ border:3px solid black;
 	text-align: center;
 	width:900px;
 	margin:auto;
-	border-radius:16px;
+
 }
-.sec-col{
- float: left;
- margin: 10px 1.5%;
- width: 30%;
- border:3px solid #8B0000;
- border-radius:16px;
- padding:10px;
- height:600px;
- background-color:#8B0000;
-display:block;
+.nav-text {
+
+	border-bottom-width:2px;
+	border-color:#C0392B  ;
+	border-style:solid;
+	
 }
+
 body {
   height:970px;
 
@@ -121,12 +145,14 @@ text-align:center;
 
 }
 .nav-footer-bar{
-	background-color:#8B0000;
+
 	text-align: center;
 	width:650px;
 	margin:auto;
 	border-radius:5px;
+	padding:10px;
 }
+
 footer {
   clear: both;
 }
@@ -149,12 +175,13 @@ a:hover{
 	color:grey;
 }
 .nav-text{
-	padding:20px;
+	padding-left:20px;
+	padding-right:20px;
 	font-size:20px;
 	margin:auto;	
 }
 .nav-footer{
-	padding:30px;
+	padding:40px;
 	font-size:20px
 }
 h1, h3, h4, h5, p {
@@ -164,32 +191,6 @@ h1, h3, h4, h5, p {
 	color:white;
 }
 
-/*
-  ========================================
-  Buttons
-  ========================================
-*/
 
-/* .btn {
-  border-radius: 5px;
-  display: inline-block;
-  margin: 0;
-}
-
-.btn-alt {
-  border: 1px solid #dfe2e5;
-  padding: 10px 30px;
-} */
-
-/*
-  ========================================
-  Home
-  ========================================
-*/
-
-/* .hero {
-  padding: 22px 80px 66px 80px;
-}
- */
 
 
