@@ -1,0 +1,150 @@
+body {
+	font-size: 30px;
+}
+
+
+/*Nav bar design*/
+.nav {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	background-color: #8B0000;
+	width: 100%;
+}
+
+
+/*nav bar positioning*/
+.nav_pos{
+	display: inline-block;
+	float: left;
+	border-right: 3px solid #bbb;
+}
+
+/*nav bar buttons*/
+.nav_btn {
+	display: block;
+	color: white;
+	padding: 12px 82.4px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px
+}
+
+.nav_btn:hover {
+	background-color: #696969;
+}
+
+.nav_pos:last-child {
+	border-right: none;
+}
+
+.movie_border {
+    margin: 100px 105px 0 300px;  
+    border-bottom: 1.9px solid #333;
+    overflow: auto
+}
+
+.movie_title { 
+	font-family: 'Perpetua', Serif;
+	line-height: 1.25; 
+	font-size: 40px; 
+	text-align: center;
+}
+
+.movieposter {
+    float: left;
+	margin-left: 50px;
+	margin-bottom: 30px;
+	margin-right: 50px;
+	display: block
+}
+
+.movie_description {
+	font-family: "Libre Baskerville", serif;
+	color: #222; 
+	font-size: 20px;  
+	margin-right: 400px;
+	margin-left: 390px;
+	padding-top: 20px;
+	text-align: justify;
+	border-top: 1.9px solid #333;
+	display: block;
+}
+
+.movie_details_border {
+	margin: -225px 0 0 1000px;
+	border-top: 1.9px solid #333;
+}
+
+.movie_details_header {
+	padding-left: 35px;
+	font-family: 'Actor';
+	font-size: 22px;
+}
+
+.movie_details {
+	list-style-type: none;
+	font-size: 20px;
+}
+
+.movie_details_share {
+	padding-left: 135px;
+	font-family: 'Actor';
+	font-size: 22px;
+}
+
+.reviewer_title_left {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: 85px 0 0 470px;
+}
+
+.reviewer_title_middle {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: -85px 0 0 770px;
+}
+
+.reviewer_title_right {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: -85px 0 0 1075px;
+}
+
+.star_rating_left {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 20px 0 0 300px;
+}
+
+.star_rating_middle {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 20px 0 0 700px;
+}
+
+.star_rating_right {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 20px 0 0 1000px;
+}
+
+i {
+	width: 14px;
+	height: 14px;
+	margin-right: 30px;
+	
+}
+
+
+
+

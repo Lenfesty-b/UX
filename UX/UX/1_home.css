@@ -1,0 +1,62 @@
+body {
+	font-size: 30px;
+	background: url("Cinema_room.jpg")repeat-x;
+}
+
+img {
+	padding-right: 400px;
+	padding-bottom: -400px;
+}
+/*Nav bar design*/
+ul {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	background-color: #8B0000;
+	width: 100%;
+}
+
+
+/*nav bar positioning*/
+li{
+	display: inline-block;
+	float: left;
+	border-right: 3px solid #bbb;
+}
+
+/*nav bar buttons*/
+li a {
+	display: block;
+	color: white;
+	padding: 12px 82.4px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px
+}
+
+
+li a:hover {
+	background-color: #696969;
+}
+
+li:last-child {
+	border-right: none;
+}
+
+.active {
+	background-color: #red;
+}
+
+
+h1 {
+	text-align: center;
+	font-size: 130px;
+	font-family: Andale Mono, monospace;
+	color: #FFFAFA;
+	position: fixed;
+	padding-left: 250px;
+	padding-top: -300px;
+}
