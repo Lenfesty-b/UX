@@ -1,0 +1,426 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+
+  License: none (public domain)
+
+*/
+
+
+
+html, body, div, span, applet, object, iframe,
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+
+a, abbr, acronym, address, big, cite, code,
+
+del, dfn, em, img, ins, kbd, q, s, samp,
+
+small, strike, strong, sub, sup, tt, var,
+
+b, u, i, center,
+
+dl, dt, dd, ol, ul, li,
+
+fieldset, form, label, legend,
+
+table, caption, tbody, tfoot, thead, tr, th, td,
+
+article, aside, canvas, details, embed,
+
+figure, figcaption, footer, header, hgroup,
+
+menu, nav, output, ruby, section, summary,
+
+time, mark, audio, video {
+
+  margin: 0;
+
+  padding: 0;
+
+  border: 0;
+
+  font-size: 100%;
+
+  font-family: imapact	;
+
+  color:white;
+
+  vertical-align: baseline; 
+
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure,
+
+footer, header, hgr                oup, menu, nav, section {
+
+  display: block;
+
+}
+
+body, html {
+
+  height: 100%;
+
+  margin:0px;
+
+}
+
+header {
+
+    min-width: 100%;
+
+    max-width: 100%;
+
+    min-height: 100%;
+
+    max-height:10%;
+
+    padding-bottom:10px;
+
+}
+
+.wrapper {
+
+  min-height: 100%;
+
+
+
+  /* Equal to height of footer */
+
+  /* But also accounting for potential margin-bottom of last child */
+
+  margin-bottom: -50px;
+
+}
+
+footer,
+
+.push {
+
+  height: 50px;
+
+}
+
+body {
+
+  line-height: 1;
+
+  background-color:#8B0000;
+
+}
+
+footer {
+
+    margin: auto;
+
+    min-width: 100%;
+
+    max-width: 100%;
+
+    
+
+    min-height: 30%;
+
+    max-height: 100%;
+
+    background-color: #333;
+
+    border-top-width: 3px;
+
+    border-style: solid;
+
+    border-color: black;
+
+}
+
+ol, ul {
+
+  list-style: none;
+
+}
+
+blockquote, q {
+
+  quotes: none;
+
+}
+
+blockquote:before, blockquote:after,
+
+q:before, q:after {
+
+  content: '';
+
+  content: none;
+
+}
+
+table {
+
+  border-collapse: collapse;
+
+  border-spacing: 0;
+
+}
+
+.parallax { 
+
+
+
+  background-image: url("cinema.jpg");
+
+
+
+  height: 500px;
+
+  border:3px solid black;  
+
+	
+
+  
+
+  background-attachment: fixed;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+}
+
+.space{
+
+	padding:10px;
+
+}
+
+
+
+/*
+
+  ========================================
+
+  Grid
+
+  ========================================
+
+*/
+
+
+
+*,
+
+*:before,
+
+*:after {
+
+  -webkit-box-sizing: border-box;
+
+     -moz-box-sizing: border-box;
+
+          box-sizing: border-box;
+
+}
+
+.nav-bar{
+
+	text-align: center;
+
+	width:1200px;
+
+	margin:auto;
+
+	
+
+}
+
+
+
+
+
+.nav-text {
+
+
+
+	border-bottom-width:2px;
+
+	border-color:#C0392B  ;
+
+	border-style:solid;
+
+	
+
+}
+
+
+
+body {
+
+  height:970px;
+
+
+
+}
+
+.container {
+
+  margin: 0 auto;
+
+  padding-left: 30px;
+
+  padding-right: 30px;
+
+  width: 1500px;
+
+  text-align:center;
+
+}
+
+
+
+.hcontainer{
+
+  margin: 0 auto;
+
+  padding-left: 10px;
+
+  padding-right: 10px;
+
+  width: 1500px;
+
+  text-align:center;
+
+
+
+  background-color:#8B0000;
+
+}  
+
+
+
+}
+
+.nav-footer-bar{
+
+    height:20%;
+
+	text-align: center;
+
+	width:650px;
+
+	margin:auto;
+
+	border-radius:5px;
+
+	padding:10px;
+
+}
+
+
+
+footer {
+
+  clear: both;
+
+}
+
+#topHead{
+
+	float:left;
+
+}
+
+.icons{
+
+float:right;
+
+padding:2px;
+
+ position: relative;
+
+ bottom:35px;
+
+ right:30px;
+
+}
+
+.iconsFooter{
+
+	padding:10px;
+
+}
+
+.iimg{
+
+	padding:2px;
+
+}
+
+/*
+
+  ========================================
+
+  Typography
+
+  ========================================
+
+*/
+
+.hcontainer h1{
+
+	font-size:50px;
+
+}
+
+.hcontainer h1,h3,a{
+
+	color:white;
+
+}
+
+a,a:visited{
+
+	text-decoration:none;
+
+	color:white;
+
+}
+
+a:hover{
+
+	color:grey;
+
+}
+
+.nav-text{
+
+	padding-left:30px;
+
+	padding-right:30px;
+
+	font-size:25px;
+
+	margin:auto;	
+
+}
+
+.nav-footer {
+
+	padding:40px;
+
+	font-size:20px;
+
+}
+
+h1, h3, h4, h5, p {
+
+  margin-bottom: 22px;
+
+}
+
+
+
+
+

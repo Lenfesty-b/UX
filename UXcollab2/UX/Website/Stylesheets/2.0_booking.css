@@ -1,0 +1,135 @@
+p {
+
+	color: white;
+
+	font-family: Raleway, sans-serif;
+
+	font-size: 20px
+
+}
+
+
+
+h1 {
+
+	color: white;
+
+	font-family: verdana;
+
+	font-size: 30px;
+
+}
+
+input[type=text], select, textarea {	
+
+	width: 400px;
+
+	height: 100px;
+
+	
+
+	padding-left: 20px;
+
+	padding-right:20px;
+
+	
+
+	margin-top: 2px;
+
+	margin-bottom: 8px;
+
+	
+
+	border: 30px solid #333;
+
+	border-radius: 40px;
+
+	box-sizing: border-box;
+
+	resize: vertical;	
+
+	}
+
+	
+
+/*Style the Submit Button*/
+
+	input[type=submit] {
+
+	background-color: #616A6B;
+
+	color: white;
+
+	padding: 12px 20px;
+
+	border: none;
+
+	border-radius: 5px;
+
+	cursor: pointer;
+
+	}
+
+
+
+/*Rollover for Submit Button*/
+
+	input[type=submit]:hover {
+
+	background-color: #B2BABB;
+
+	}
+
+
+
+/*Style the Reset Button*/
+
+	input[type=reset]{
+
+	background-color: #616A6B;
+
+	color: white;
+
+	padding: 12px 20px;
+
+	border: none;
+
+	border-radius: 4px;
+
+	cursor: pointer;
+
+	}
+
+	
+
+/*Rollover for Reset Button*/
+
+	input[type=reset]:hover{
+
+	background-color:#B2BABB;
+
+	}
+
+	
+
+.bookingform_{
+
+	margin-top: 50px;
+
+	margin-bottom: 50px;
+
+	background-color: #333;
+
+	border: 2px solid black;
+
+	padding-top: 50px;
+
+}
+
+
+
+.label {
+
+	padding-left: 20px;
+
+}

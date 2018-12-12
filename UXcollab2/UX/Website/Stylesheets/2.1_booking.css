@@ -1,0 +1,117 @@
+.ticketable, th, td{
+
+	border: 2px solid black;
+
+	margin-left: 20px;
+
+	padding: 30px;
+
+	background-color: #333;
+
+	width:50%;
+
+	height:10px;
+
+}
+
+
+
+.next {
+
+	background-color: #616A6B;
+
+	color: white;
+
+	
+
+	padding: 12px 20px;
+
+	border: none;
+
+	border-radius: 5px;
+
+	
+
+	margin-left: 69.3%;
+
+}
+
+
+
+a {
+
+	text-decoration: none;
+
+	display: inline-block;
+
+	padding: 8px 16px;
+
+	
+
+}
+
+
+
+proceed:hover {
+
+	background-color: #B2BABB;
+
+	color: white;
+
+}
+
+.progressbar {
+
+	margin-left: 20%;
+
+	margin-right: 20%;
+
+	margin-top: 1%;
+
+	
+
+	height: 50px;
+
+
+
+	padding: 20px;
+
+	padding-left: 20px;
+
+}
+
+
+
+.firstbar {
+
+	background-color: #333;
+
+	height: 50px;
+
+	
+
+	font-family: verdana;
+
+	font-size: 20px;
+
+	text-align: center;
+
+	padding: 10px;
+
+	
+
+	border: 2px;
+
+}
+
+
+
+.secondbar {
+
+	border: 2px solid black;
+
+	background-color: #616A6B;
+
+	
+
+}

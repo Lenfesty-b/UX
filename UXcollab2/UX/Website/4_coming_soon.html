@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" type="text/css" href="Stylesheets/0_master_template.css">
+	 <link rel="stylesheet" type="text/css" href="Stylesheets/4_coming_soon.html.css">
+	 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	 <title>Legenderry Movie House</title>
+  </head>
+
+  <body>
+  <div class="wrapper">
+    <!-- Header -->
+
+  	<header class="hcontainer">
+  	
+  		<h1 id="topHead">
+  			<a href="1_home.html">Legendary Movie House</a>
+  		</h1>
+		
+		<div class="space"></div>
+  		<nav class="nav-bar">
+    		<a href="1_home.html" class="nav-text">Home</a>
+    		<a href="2.0_booking.html" class="nav-text">Booking</a>
+    		<a href="3.0_movies.html" class="nav-text">Movies</a>
+    		<a href="4_coming_soon.html"class="nav-text">Coming Soon</a>
+    		<a href="5_about.html"class="nav-text">About us</a>
+			<a href="6_contact.html" class="nav-text">Contact</a>
+  		</nav>
+		<div class="icons">
+			<img src="Assets/facebook.png"width=40 height=40 class="iimg"/>
+			<img src="Assets/instagram.png"width=40 height=40 class="iimg"/>
+			<img src="Assets/twitter.png"width=40 height=40 class="iimg"/>
+			<img src="Snapchat.png"width=40 height=40 class="iimg"/>
+		</div>
+	</header>
+	<div class="parallax"></div>
+	
+
+	
+	<!-- Content -->
+	
+
+<div class="slider">	
+<div class="w3-content w3-display-container">
+	<img class="mySlides" src="Assets/bumblebee.jpg" width=1200 height=1000>
+	<img class="mySlides" src="Assets/holmes.jpg" width=1200 height=1000>
+	<img class="mySlides" src="Assets/avengers.jpg" width=1200 height=1000>
+	<img class="mySlides" src="Assets/lego.jpg" width=1200 height=1000>
+	<img class="mySlides" src="Assets/lionKing.jfif" width=1200 height=1000>
+	<img class="mySlides" src="Assets/rocketman.jpg" width=1200 height=1000>
+	<img class="mySlides" src="Assets/pokemon.jpg" width=1200 height=1000>
+	
+	<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+	<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+	
+	  <br>
+	  <div style="text-align:center"> 
+	  <span class="dot" onclick="currentSlide(1)"></span> 
+	  <span class="dot" onclick="currentSlide(2)"></span> 
+	  <span class="dot" onclick="currentSlide(3)"></span>
+	  <span class="dot" onclick="currentSlide(4)"></span>
+	  <span class="dot" onclick="currentSlide(5)"></span>
+	  <span class="dot" onclick="currentSlide(6)"></span>
+	  <span class="dot" onclick="currentSlide(7)"></span>
+	  </div>
+</div>
+	
+	<script>
+  
+var slideIndex = 0;
+showSlides();
+var slides,dots;
+
+function showSlides() {
+    var i;
+    slides = document.getElementsByClassName("mySlides");
+    dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 6000); 
+}
+
+var slideIndex = 0;
+carousel();
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
+
+</script>
+
+
+	
+	
+	
+	<div class="push"></div>
+  </div>
+  
+	<!-- Footer -->
+
+	<footer class="container">
+  		
+		<div class="space"></div>
+  		<nav class="nav-footer-bar">
+    		<a href="1_home.html"class="nav-footer tColor" >Home</a>
+    		<a href="2.0_booking.html"class="nav-footer">Booking</a>
+			 <a href="3.0_movies.html" class="nav-footer">Movies</a>
+    		<a href="4_coming_soon.html"class="nav-footer">Coming Soon</a>
+    		<a href="5_about.html"class="nav-footer">About us</a>
+			<a href="6_contact.html" class="nav-footer">Contact</a>
+  		</nav>
+		<div class="iconsFooter">
+			<img src="Assets/facebook.png"width=40 height=40 class="iimg"/>
+			<img src="Assets/instagram.png"width=40 height=40 class="iimg"/>
+			<img src="Assets/twitter.png"width=40 height=40 class="iimg"/>
+			<img src="Snapchat.png"width=40 height=40 class="iimg"/>
+		</div>
+		<div class="space"></div>
+		<small class="nav-footer-bar">&copy; SCEIS Conference</small>
+	</footer>
+
+  </body>
+</html>
