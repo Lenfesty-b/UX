@@ -1,0 +1,45 @@
+﻿.aboutText {
+    border: 3px solid black;
+    background-color: #C0392B;
+    border-radius: 16px;
+    width:70%;
+    padding:20px;
+}
+.aboutText p {
+        text-align: left;
+}
+.aboutText h1 {
+        padding:10px;
+        font-size:30px
+}
+#jssor_1{
+    border:3px solid black;
+    border-radius:16px;
+    padding:10px;
+}
+
+.columnOffer {
+    margin: 10px 1.5%;
+    float: left;
+   
+   
+    
+    width: 25%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 420px;
+    height: 400px;
+    overflow: auto;
+}
+.offerBox {
+
+    margin: auto;
+    width: 70%;
+    
+
+}
+.imgBord {
+    border: 3px solid black;
+}
+

@@ -1,0 +1,64 @@
+
+.sec-col{
+ float: left;
+ margin: 10px 1.5%;
+ width: 33%;	
+ border-radius:16px;
+ padding:10px;
+ height:600px;
+ background-color:#C0392B;
+ display:block;
+ border:2px solid black;
+ overflow: auto;  
+ width: 425px;
+ height: 400px; 	
+
+}
+
+.imgBord{
+  border:2px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.quickBook{
+	padding:20px;
+	margin: auto;
+	width: 50%;
+	background-color:#333; 
+	border:2px solid black;
+	font-family:georgia;
+	
+}
+.quickBook h2{
+	text-align:center;
+	padding-bottom:7px;
+}
+form ul { 
+list-style-type: none; 
+}
+
+form ul li { 
+display: inline-block;
+padding: 10px;
+ }
+.ResSub input{
+	margin-left:0;
+	margin-right:0;
+}
+.button{
+	border:2px ridge black;
+	width:10%;
+	border-radius:5px;
+	-webkit-transition-duration: 0.4s; 
+	transition-duration: 0.4s;
+	padding:10px;
+	font-size:15px;
+	background-color:white;
+	color:black
+}
+
+.button:hover {
+  background-color: #C0392B; 
+  color: white;
+}
