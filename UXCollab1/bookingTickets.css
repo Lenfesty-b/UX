@@ -1,0 +1,32 @@
+.ticketable, th, td{
+	border: 2px solid black;
+	margin-left: 20px;
+	padding: 30px;
+	background-color: #333;
+	width:50%;
+	height:10px;
+}
+
+.next {
+	background-color: #616A6B;
+	color: white;
+	
+	padding: 12px 20px;
+	border: none;
+	border-radius: 5px;
+	
+	margin-left: 69.3%;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 8px 16px;
+	
+}
+
+proceed:hover {
+	background-color: #B2BABB;
+	color: white;
+}
+
