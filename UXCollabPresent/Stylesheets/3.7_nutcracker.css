@@ -1,0 +1,120 @@
+.movieposter_title {
+	margin-left: 230px;
+	margin-bottom: -80px;
+	font-family: 'Perpetua', Serif;
+	font-size: 70px;
+	text-decoration: underline;
+}
+
+.movie_border1 {
+    margin: 100px 105px 100px 100px; 
+	padding-bottom: 10px;	
+	padding-top: 50px;
+    overflow: auto;
+	background-color: #720000;
+}
+
+.movieposter1 {
+    float: left;
+	margin-left: 50px;
+	margin-bottom: 30px;
+	margin-right: 50px;
+	display: block
+}
+
+.movie_description1 {
+	margin-right: 580px;
+	text-align: justify;
+	font-size: 20px;
+	font-family: 'Raleway',sans-serif;
+}
+
+.description_title {
+	font-size: 30px;
+}
+
+.trailer_title {
+	font-size: 30px;
+}
+
+.movie_trailer {
+	margin-left: 1250px;
+	margin-top: -600px;
+	padding-bottom: 90px;
+}
+
+.movie_details1 {
+	font-size: 20px;
+	margin-right: 580px;
+	margin-left: 600px;
+	font-family: 'Raleway',sans-serif;
+	line-height: 1.25;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	border-top: 1.9 #333 solid;
+	border-bottom: 1.9 #333 solid;
+}
+
+.details_title {
+	font-size: 30px;
+}
+
+.details_header {
+	font-size: 25px;
+	color: #d3d3d3;
+	margin-bottom: 30px;
+}
+
+.movie_review1 {
+	margin-left: 1250px;
+	margin-right: 40px;
+	font-size: 20px;
+	font-family: 'Raleway',sans-serif;
+	text-align: justify;
+	padding-left: 30px;
+	margin-top: -50px;
+	border-left: 1.9 #333 solid;
+}
+
+.review_title {
+	font-size: 30px;
+}
+
+.read_more:link {
+	color: #7FDBFF;
+}
+
+.read_more:hover {
+	color: #7FDBFF;
+	text-decoration: underline
+}
+
+.read_more:visited {
+	color: #B10DC9;
+}
+
+.quick_details {
+	white-space: nowrap;
+	margin-top: 80px;
+	margin-left: 1285px;
+	font-size: 20px;
+	font-family: 'Raleway',sans-serif;
+}
+
+button {
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+	border-radius: 12px;
+	margin-left: 750px;
+	margin-top: 40px;
+}
+
+button:hover {
+	background-color: #357a38;
+	cursor: pointer;
+}

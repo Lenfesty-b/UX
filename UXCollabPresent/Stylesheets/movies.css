@@ -1,0 +1,1115 @@
+body {
+	font-size: 30px;
+}
+
+
+
+/*==============================================================
+================================================================
+Movie 1
+================================================================
+===============================================================*/
+
+.movie_border1 {
+    margin: 100px 105px 0 100px; 
+	padding-bottom: 50px;	
+	padding-top: 50px;
+    border-bottom: 1.9px solid #1a1a1a;
+    overflow: auto
+}
+
+.movie_border1:hover {
+	background-color: #720000;
+	cursor: pointer;
+}
+
+.movie_title1 { 
+	font-family: 'Perpetua', Serif;
+	line-height: 1.25; 
+	font-size: 40px; 
+	margin-left: 400px;
+}
+
+.movieposter1 {
+    float: left;
+	margin-left: 50px;
+	margin-bottom: 30px;
+	margin-right: 50px;
+	display: block
+}
+
+.movie_description1 {
+	font-family: 'Raleway',sans-serif;
+	color: #F8F8FF; 
+	font-size: 20px;  
+	margin-right: 600px;
+	margin-left: 390px;
+	padding-top: 20px;
+	text-align: justify;
+	border-top: 1.9px solid #1a1a1a;
+	display: block;
+}
+
+.movie_details_border1 {
+	margin: -185px 0 0 1245px;
+	border-top: 1.9px solid #1a1a1a;
+	padding-bottom: 110px;
+}
+
+.movie_details_header1 {
+	padding-left: 35px;
+	padding-top: 15px;
+	font-family: 'Actor';
+	font-size: 22px;
+}
+
+.movie_details1 {
+	list-style-type: none;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.reviewer_title_left1 {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: -20px 0 -90px 430px;
+}
+
+.reviewer_title_middle1 {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: -60px 0 -10px 720px;
+}
+
+.reviewer_title_right1 {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: -59px 0 0 1015px;
+}
+
+.star_rating_left1 {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 100px 0 0 330px;
+	font-size: 20px;
+}
+
+.star_rating_middle1 {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 23px 0 0 700px;
+	font-size: 20px;
+}
+
+.star_rating_right1 {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 10px 0 0 980px;
+	font-size: 20px;
+}
+/*==============================================================
+================================================================
+Movie 2
+================================================================
+===============================================================*/
+
+.movie_border2{
+    margin: 20px 105px 0 100px; 
+	padding-bottom: 50px;	
+	padding-top: 50px;
+    border-bottom: 1.9px solid #1a1a1a;
+    overflow: auto
+}
+
+.movie_border2:hover {
+	background-color: #720000;
+	cursor: pointer;
+}
+
+.movie_title2 { 
+	font-family: 'Perpetua', Serif;
+	line-height: 1.25; 
+	font-size: 40px; 
+	margin-left: 400px;
+}
+
+.movieposter2 {
+    float: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	display: block;
+	top: 50%;
+}
+
+.movie_description2 {
+	font-family: 'Raleway',sans-serif;
+	color: #F8F8FF; 
+	font-size: 20px;  
+	margin-right: 600px;
+	margin-left: 390px;
+	padding-top: 20px;
+	text-align: justify;
+	border-top: 1.9px solid #1a1a1a;
+	display: block;
+}
+
+.movie_details_border2 {
+	margin: -284px 0 0 1245px;
+	border-top: 1.9px solid #1a1a1a;
+	padding-bottom: 58px;
+}
+
+.movie_details_header2 {
+	padding-left: 35px;
+	padding-top: 15px;
+	font-family: 'Actor';
+	font-size: 22px;
+}
+
+.movie_details2 {
+	list-style-type: none;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.reviewer_title_left2 {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: 45px 0 -90px 430px;
+}
+
+.reviewer_title_middle2 {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: -60px 0 -10px 720px;
+}
+
+.reviewer_title_right2 {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: -59px 0 0 1015px;
+}
+
+.star_rating_left2 {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 100px 0 0 400px;
+	font-size: 20px;
+}
+
+.star_rating_middle2 {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 23px 0 0 700px;
+	font-size: 20px;
+}
+
+.star_rating_right2 {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 10px 0 0 980px;
+	font-size: 20px;
+}
+
+i {
+	width: 14px;
+	height: 14px;
+	padding-right: 40px;
+	color: #ffd700;
+}
+
+/*==============================================================
+================================================================
+Movie 3
+================================================================
+===============================================================*/
+
+.movie_border3{
+    margin: 20px 105px 0 100px; 
+	padding-bottom: 50px;	
+	padding-top: 50px;
+    border-bottom: 1.9px solid #1a1a1a;
+    overflow: auto
+}
+
+.movie_border3:hover {
+	background-color: #720000;
+	cursor: pointer;
+}
+
+.movie_title3 { 
+	font-family: 'Perpetua', Serif;
+	line-height: 1.25; 
+	font-size: 40px; 
+	margin-left: 400px;
+}
+
+.movieposter3 {
+    float: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	display: block;
+	top: 50%;
+}
+
+.movie_description3 {
+	font-family: 'Raleway',sans-serif;
+	color: #F8F8FF; 
+	font-size: 20px;  
+	margin-right: 600px;
+	margin-left: 390px;
+	padding-top: 20px;
+	text-align: justify;
+	border-top: 1.9px solid #1a1a1a;
+	display: block;
+}
+
+.movie_details_border3 {
+	margin: -165px 0 0 1245px;
+	border-top: 1.9px solid #1a1a1a;
+	padding-bottom: 55px;
+}
+
+.movie_details_header3 {
+	padding-left: 35px;
+	padding-top: 15px;
+	font-family: 'Actor';
+	font-size: 22px;
+}
+
+.movie_details3 {
+	list-style-type: none;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.reviewer_title_left3 {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: 45px 0 -90px 430px;
+}
+
+.reviewer_title_middle3 {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: -60px 0 -10px 720px;
+}
+
+.reviewer_title_right3 {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: -59px 0 0 1015px;
+}
+
+.star_rating_left3 {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 100px 0 0 400px;
+	font-size: 20px;
+}
+
+.star_rating_middle3 {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 23px 0 0 700px;
+	font-size: 20px;
+}
+
+.star_rating_right3 {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 10px 0 0 980px;
+	font-size: 20px;
+}
+
+/*==============================================================
+================================================================
+Movie 4
+================================================================
+===============================================================*/
+
+.movie_border4{
+    margin: 20px 105px 0 100px; 
+	padding-bottom: 50px;	
+	padding-top: 50px;
+    border-bottom: 1.9px solid #1a1a1a;
+    overflow: auto
+}
+
+.movie_border4:hover {
+	background-color: #720000;
+	cursor: pointer;
+}
+
+.movie_title4 { 
+	font-family: 'Perpetua', Serif;
+	line-height: 1.25; 
+	font-size: 40px; 
+	margin-left: 400px;
+}
+
+.movieposter4 {
+    float: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	display: block;
+	top: 50%;
+}
+
+.movie_description4 {
+	font-family: 'Raleway',sans-serif;
+	color: #F8F8FF; 
+	font-size: 20px;  
+	margin-right: 600px;
+	margin-left: 390px;
+	padding-top: 20px;
+	text-align: justify;
+	border-top: 1.9px solid #1a1a1a;
+	display: block;
+}
+
+.movie_details_border4 {
+	margin: -145px 0 0 1245px;
+	border-top: 1.9px solid #1a1a1a;
+	padding-bottom: 56px;
+}
+
+.movie_details_header4 {
+	padding-left: 35px;
+	padding-top: 15px;
+	font-family: 'Actor';
+	font-size: 22px;
+}
+
+.movie_details4 {
+	list-style-type: none;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.reviewer_title_left4 {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: 45px 0 -90px 430px;
+}
+
+.reviewer_title_middle4 {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: -60px 0 -10px 720px;
+}
+
+.reviewer_title_right4 {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: -59px 0 0 1015px;
+}
+
+.star_rating_left4 {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 100px 0 0 400px;
+	font-size: 20px;
+}
+
+.star_rating_middle4 {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 23px 0 0 700px;
+	font-size: 20px;
+}
+
+.star_rating_right4 {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 10px 0 0 980px;
+	font-size: 20px;
+}
+
+/*==============================================================
+================================================================
+Movie 5
+================================================================
+===============================================================*/
+
+.movie_border5{
+    margin: 20px 105px 0 100px; 
+	padding-bottom: 50px;	
+	padding-top: 50px;
+    border-bottom: 1.9px solid #1a1a1a;
+    overflow: auto
+}
+
+.movie_border5:hover {
+	background-color: #720000;
+	cursor: pointer;
+}
+
+.movie_title5 { 
+	font-family: 'Perpetua', Serif;
+	line-height: 1.25; 
+	font-size: 40px; 
+	margin-left: 400px;
+}
+
+.movieposter5 {
+    float: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	display: block;
+	top: 50%;
+}
+
+.movie_description5 {
+	font-family: 'Raleway',sans-serif;
+	color: #F8F8FF; 
+	font-size: 20px;  
+	margin-right: 600px;
+	margin-left: 390px;
+	padding-top: 20px;
+	text-align: justify;
+	border-top: 1.9px solid #1a1a1a;
+	display: block;
+}
+
+.movie_details_border5 {
+	margin: -145px 0 0 1245px;
+	border-top: 1.9px solid #1a1a1a;
+	padding-bottom: 56px;
+}
+
+.movie_details_header5 {
+	padding-left: 35px;
+	padding-top: 15px;
+	font-family: 'Actor';
+	font-size: 22px;
+}
+
+.movie_details5 {
+	list-style-type: none;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.reviewer_title_left5 {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: 45px 0 -90px 430px;
+}
+
+.reviewer_title_middle5 {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: -60px 0 -10px 720px;
+}
+
+.reviewer_title_right5 {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: -59px 0 0 1015px;
+}
+
+.star_rating_left5 {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 100px 0 0 400px;
+	font-size: 20px;
+}
+
+.star_rating_middle5 {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 23px 0 0 700px;
+	font-size: 20px;
+}
+
+.star_rating_right5 {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 10px 0 0 980px;
+	font-size: 20px;
+}
+
+/*==============================================================
+================================================================
+Movie 6
+================================================================
+===============================================================*/
+
+.movie_border6{
+    margin: 20px 105px 0 100px; 
+	padding-bottom: 50px;	
+	padding-top: 50px;
+    border-bottom: 1.9px solid #1a1a1a;
+    overflow: auto
+}
+
+.movie_border6:hover {
+	background-color: #720000;
+	cursor: pointer;
+}
+
+.movie_title6 { 
+	font-family: 'Perpetua', Serif;
+	line-height: 1.25; 
+	font-size: 40px; 
+	margin-left: 400px;
+}
+
+.movieposter6 {
+    float: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	display: block;
+	top: 50%;
+}
+
+.movie_description6 {
+	font-family: 'Raleway',sans-serif;
+	color: #F8F8FF; 
+	font-size: 20px;  
+	margin-right: 600px;
+	margin-left: 390px;
+	padding-top: 20px;
+	text-align: justify;
+	border-top: 1.9px solid #1a1a1a;
+	display: block;
+}
+
+.movie_details_border6 {
+	margin: -125px 0 0 1245px;
+	border-top: 1.9px solid #1a1a1a;
+	padding-bottom: 62px;
+}
+
+.movie_details_header6 {
+	padding-left: 35px;
+	padding-top: 15px;
+	font-family: 'Actor';
+	font-size: 22px;
+}
+
+.movie_details6 {
+	list-style-type: none;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.reviewer_title_left6 {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: 45px 0 -90px 430px;
+}
+
+.reviewer_title_middle6 {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: -60px 0 -10px 720px;
+}
+
+.reviewer_title_right6 {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: -59px 0 0 1015px;
+}
+
+.star_rating_left6 {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 100px 0 0 400px;
+	font-size: 20px;
+}
+
+.star_rating_middle6 {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 23px 0 0 700px;
+	font-size: 20px;
+}
+
+.star_rating_right6 {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 10px 0 0 980px;
+	font-size: 20px;
+}
+
+/*==============================================================
+================================================================
+Movie 7
+================================================================
+===============================================================*/
+
+.movie_border7{
+    margin: 20px 105px 0 100px; 
+	padding-bottom: 50px;	
+	padding-top: 50px;
+    border-bottom: 1.9px solid #1a1a1a;
+    overflow: auto
+}
+
+.movie_border7:hover {
+	background-color: #720000;
+	cursor: pointer;
+}
+
+.movie_title7 { 
+	font-family: 'Perpetua', Serif;
+	line-height: 1.25; 
+	font-size: 40px; 
+	margin-left: 400px;
+}
+
+.movieposter7 {
+    float: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	display: block;
+	top: 50%;
+}
+
+.movie_description7 {
+	font-family: 'Raleway',sans-serif;
+	color: #F8F8FF; 
+	font-size: 20px;  
+	margin-right: 600px;
+	margin-left: 390px;
+	padding-top: 20px;
+	text-align: justify;
+	border-top: 1.9px solid #1a1a1a;
+	display: block;
+}
+
+.movie_details_border7 {
+	margin: -165px 0 0 1245px;
+	border-top: 1.9px solid #1a1a1a;
+	padding-bottom: 48px;
+}
+
+.movie_details_header7 {
+	padding-left: 35px;
+	padding-top: 15px;
+	font-family: 'Actor';
+	font-size: 22px;
+}
+
+.movie_details7 {
+	list-style-type: none;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.reviewer_title_left7 {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: 45px 0 -90px 430px;
+}
+
+.reviewer_title_middle7 {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: -60px 0 -10px 720px;
+}
+
+.reviewer_title_right7 {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: -59px 0 0 1015px;
+}
+
+.star_rating_left7 {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 100px 0 0 400px;
+	font-size: 20px;
+}
+
+.star_rating_middle7 {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 23px 0 0 700px;
+	font-size: 20px;
+}
+
+.star_rating_right7 {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 10px 0 0 980px;
+	font-size: 20px;
+}
+
+/*==============================================================
+================================================================
+Movie 8
+================================================================
+===============================================================*/
+
+.movie_border8{
+    margin: 20px 105px 0 100px; 
+	padding-bottom: 50px;	
+	padding-top: 50px;
+    border-bottom: 1.9px solid #1a1a1a;
+    overflow: auto
+}
+
+.movie_border8:hover {
+	background-color: #720000;
+	cursor: pointer;
+}
+
+.movie_title8 { 
+	font-family: 'Perpetua', Serif;
+	line-height: 1.25; 
+	font-size: 40px; 
+	margin-left: 400px;
+}
+
+.movieposter8 {
+    float: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	display: block;
+	top: 50%;
+}
+
+.movie_description8 {
+	font-family: 'Raleway',sans-serif;
+	color: #F8F8FF; 
+	font-size: 20px;  
+	margin-right: 600px;
+	margin-left: 390px;
+	padding-top: 20px;
+	text-align: justify;
+	border-top: 1.9px solid #1a1a1a;
+	display: block;
+}
+
+.movie_details_border8 {
+	margin: -184px 0 0 1245px;
+	border-top: 1.9px solid #1a1a1a;
+	padding-bottom: 40px;
+}
+
+.movie_details_header8 {
+	padding-left: 35px;
+	padding-top: 15px;
+	font-family: 'Actor';
+	font-size: 22px;
+}
+
+.movie_details8 {
+	list-style-type: none;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.reviewer_title_left8 {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: 45px 0 -90px 430px;
+}
+
+.reviewer_title_middle8 {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: -60px 0 -10px 720px;
+}
+
+.reviewer_title_right8 {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: -59px 0 0 1015px;
+}
+
+.star_rating_left8 {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 100px 0 0 400px;
+	font-size: 20px;
+}
+
+.star_rating_middle8 {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 23px 0 0 700px;
+	font-size: 20px;
+}
+
+.star_rating_right8 {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 10px 0 0 980px;
+	font-size: 20px;
+}
+
+/*==============================================================
+================================================================
+Movie 9
+================================================================
+===============================================================*/
+
+.movie_border9{
+    margin: 20px 105px 0 100px; 
+	padding-bottom: 50px;	
+	padding-top: 50px;
+    border-bottom: 1.9px solid #1a1a1a;
+    overflow: auto
+}
+
+.movie_border9:hover {
+	background-color: #720000;
+	cursor: pointer;
+}
+
+.movie_title9 { 
+	font-family: 'Perpetua', Serif;
+	line-height: 1.25; 
+	font-size: 40px; 
+	margin-left: 400px;
+}
+
+.movieposter9 {
+    float: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	display: block;
+	top: 50%;
+}
+
+.movie_description9 {
+	font-family: 'Raleway',sans-serif;
+	color: #F8F8FF; 
+	font-size: 20px;  
+	margin-right: 600px;
+	margin-left: 390px;
+	padding-top: 20px;
+	text-align: justify;
+	border-top: 1.9px solid #1a1a1a;
+	display: block;
+}
+
+.movie_details_border9 {
+	margin: -187px 0 0 1245px;
+	border-top: 1.9px solid #1a1a1a;
+	padding-bottom: 40px;
+}
+
+.movie_details_header9 {
+	padding-left: 35px;
+	padding-top: 15px;
+	font-family: 'Actor';
+	font-size: 22px;
+}
+
+.movie_details9 {
+	list-style-type: none;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.reviewer_title_left9 {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: 45px 0 -90px 430px;
+}
+
+.reviewer_title_middle9 {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: -60px 0 -10px 720px;
+}
+
+.reviewer_title_right9 {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: -59px 0 0 1015px;
+}
+
+.star_rating_left9 {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 100px 0 0 400px;
+	font-size: 20px;
+}
+
+.star_rating_middle9 {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 23px 0 0 700px;
+	font-size: 20px;
+}
+
+.star_rating_right9 {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 10px 0 0 980px;
+	font-size: 20px;
+}
+
+/*==============================================================
+================================================================
+Movie 10
+================================================================
+===============================================================*/
+
+.movie_border10{
+    margin: 20px 105px 0 100px; 
+	padding-bottom: 50px;	
+	padding-top: 50px;
+    border-bottom: 1.9px solid #1a1a1a;
+    overflow: auto
+}
+
+.movie_border10:hover {
+	background-color: #720000;
+	cursor: pointer;
+}
+
+.movie_title10 { 
+	font-family: 'Perpetua', Serif;
+	line-height: 1.25; 
+	font-size: 40px; 
+	margin-left: 400px;
+}
+
+.movieposter10 {
+    float: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	display: block;
+	top: 50%;
+}
+
+.movie_description10 {
+	font-family: 'Raleway',sans-serif;
+	color: #F8F8FF; 
+	font-size: 20px;  
+	margin-right: 600px;
+	margin-left: 390px;
+	padding-top: 20px;
+	text-align: justify;
+	border-top: 1.9px solid #1a1a1a;
+	display: block;
+}
+
+.movie_details_border10 {
+	margin: -166px 0 0 1245px;
+	border-top: 1.9px solid #1a1a1a;
+	padding-bottom: 50px;
+}
+
+.movie_details_header10 {
+	padding-left: 35px;
+	padding-top: 15px;
+	font-family: 'Actor';
+	font-size: 22px;
+}
+
+.movie_details10 {
+	list-style-type: none;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.reviewer_title_left10 {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: 45px 0 -90px 430px;
+}
+
+.reviewer_title_middle10 {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: -60px 0 -10px 720px;
+}
+
+.reviewer_title_right10 {
+	font-family: 'Actor';
+	font-size: 22px;
+	font-weight: 400;
+	margin: -59px 0 0 1015px;
+}
+
+.star_rating_left10 {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 100px 0 0 400px;
+	font-size: 20px;
+}
+
+.star_rating_middle10 {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 23px 0 0 700px;
+	font-size: 20px;
+}
+
+.star_rating_right10 {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	margin: 10px 0 0 980px;
+	font-size: 20px;
+}
+
+
+
+
